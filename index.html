@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNISHOP ecommerce website</title>
+
+    <!--Scroll Reveal Js-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--FontAwsome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!--Linking css file-->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://developer.mozilla.org/docs/Web/CSS/font-family">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-------Top Nav-------->
+    <nav class="nav" style="height: 50px;background-color: rgba(37, 43, 66, 1);color: white; ">
+        <div class="container nav_container" style="color: white;">
+
+            <ul class="nav_list">
+                <i class="fa fa-phone" aria-hidden="true" style="color: white;"></i>
+                <li class="nav_item"><a href="#" class="nav_link">(225) 555-0118</a></li>
+                <li class="nav_item"><a href="#" class="nav_link">michelle.rivera@example.com</a></li>
+                <li class="nav_item"><a href="#" class="nav_link">Follow Us and get a chance to win 80% off</a></li>
+                <li class="nav_item"><a href="#" class="nav_link">Follow Us :</a></li>
+
+            </ul>
+            <div class="social">
+
+                <i class="fa-brands fa-instagram"></i>
+
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                </a>
+            </div>
+            <span class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </span>
+        </div>
+    </nav>
+    
+    <nav class="navmob">
+        <div class="containermob">
+            <a href="#" class="nav_logo">Bandage</a>
+            <ul class="nav_list1" >
+                <li class="nav_item"><a href="/" class="nav_link2">Home</a></li>
+                <li class="nav_item"><a href="/" class="nav_link2">Shop</a></li>
+                <li class="nav_item"><a href="#" class="nav_link2">About</a></li>
+                <li class="nav_item"><a href="#" class="nav_link2">Blog</a></li>
+                <li class="nav_item"><a href="#" class="nav_link2">Contact</a></li>
+                <li class="nav_item"><a href="#" class="nav_link2">Pages</a></li>
+
+            </ul>
+            <div class="social">
+
+
+
+                <i class="fa fa-user" aria-hidden="true" style="color: rgba(35, 166, 240, 1);"></i>
+                <p class="nav_item"><a href="/" class="nav_link1">Login <span>/Register</span></a></p>
+                </form>
+
+
+
+                <i class="fa fa-search" aria-hidden="true" style="color: rgba(35, 166, 240, 1)"></i>
+                <i class="fa-solid fa-cart-shopping" class="cart" style="color: rgba(35, 166, 240, 1)"></i>
+                <i class="fa-regular fa-heart" class="heart" style="color: rgba(35, 166, 240, 1);"></i>
+                <a href="cart.html">
+
+                </a>
+            </div>
+            <span class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </span>
+        </div>
+    </nav>
+
+
+    <nav class="nav">
+        <div class="container nav_container">
+            <a href="#" class="nav_logo">Bandage</a>
+            <ul class="nav_list1" >
+                <li class="nav_item"><a href="/" class="nav_link2">Home</a></li>
+                <li class="nav_item"><a href="/" class="nav_link2">Shop</a></li>
+                <li class="nav_item"><a href="#" class="nav_link2">About</a></li>
+                <li class="nav_item"><a href="#" class="nav_link2">Blog</a></li>
+                <li class="nav_item"><a href="#" class="nav_link2">Contact</a></li>
+                <li class="nav_item"><a href="#" class="nav_link2">Pages</a></li>
+
+            </ul>
+            <div class="social">
+
+
+
+                <i class="fa fa-user" aria-hidden="true" style="color: rgba(35, 166, 240, 1);"></i>
+                <p class="nav_item"><a href="/" class="nav_link1">Login <span>/Register</span></a></p>
+                </form>
+
+
+
+                <i class="fa fa-search" aria-hidden="true" style="color: rgba(35, 166, 240, 1)"></i>
+                <i class="fa-solid fa-cart-shopping" class="cart" style="color: rgba(35, 166, 240, 1)"></i>
+                <i class="fa-regular fa-heart" class="heart" style="color: rgba(35, 166, 240, 1);"></i>
+                <a href="cart.html">
+
+                </a>
+            </div>
+            <span class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </span>
+        </div>
+    </nav>
+    <!-------Mobile Nav-------->
+    <nav class="mob_nav mob_hidden">
+        <ul class="mob_list">
+            <li class="mob_item">
+                <a href="/" class="mob_link">Home</a>
+            </li>
+            <li class="mob_item">
+                <a href="#" class="mob_link">About Us</a>
+            </li>
+            <li class="mob_item">
+                <a href="#" class="mob_link">Contact</a>
+            </li>
+            <li class="mob_item">
+                <a href="signup.html" class="mob_link">Sign Up</a>
+            </li>
+            <li class="mob_item">
+                <a href="cart.html" class="mob_link">Cart</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- -----div------ -->
+    <div>
+
+        <div class="div" style="background-image: url(1.jpg); height: 587px; color: white;">
+            <div style="padding: 10%;margin-left: 0;width: 599px;
+            height:331px;
+            gap: 35px;
+            ">
+                <div>
+
+
+                    <h3 style="font-size: 15px;margin: 30px;margin-left: 0;">SUMMER 2020</h3>
+                    <h1 style="margin: 30px;margin-left: 0;">NEW COLLECTION</h1>
+                    <h3 style="font-size: 15px;margin: 30px;margin-left: 0;font-weight: lighter;">We know how large
+                        objects will act,
+                        but things on a small scale.</h3>
+                    <button style="background-color:  rgba(45, 192, 113, 1);
+                ;color: white;padding: 15px 40px 15px 40px;border-radius: 5px;border: none;">SHOP NOW</button>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-------scrolling slider (swiper items)-------->
+    <section class="section" style="text-align: center;">
+        <div class="container">
+
+
+            <div class="category">
+                <h3 class="title">EDITOR’S PICK</h3>
+                <p style="    font-weight: bold;
+                margin-bottom: 10px;
+                margin-bottom: 100px;
+                font-size: medium;
+                color: rgba(115, 115, 115, 1)">Problems trying to resolve the
+                    conflict between </p>
+            </div>
+            <!-- Swiper -->
+            <div class="collage">
+
+                <div class="block-container">
+                    <div class="image-container" style="height: 488px;width: 530px;">
+                        <img src="filter.png" alt="Image 1">
+                        <button class="image-button">MEN</button>
+                    </div>
+                </div>
+                <div class="block-container larger">
+                    <div class="image-container">
+                        <img src="filter1.png" alt="Image 2">
+                        <button class="image-button">WOMEN</button>
+                    </div>
+                </div>
+
+
+
+                <div class="block-container" style="height: 10px;">
+                    <div class="image-container" style="margin-bottom: 12px;">
+                        <img src="filter3.png" alt="Image 3">
+                        <button class="image-button">ACCESSORIES</button>
+
+                    </div>
+                    <div class="image-container">
+                        <img src="filter4.png" alt="Image 3">
+                        <button class="image-button">KIDS</button>
+
+                    </div>
+                </div>
+
+                <table>
+                    <div class="category">
+                        <p
+                            style="font-weight: lighter;margin-bottom: 10px;font-weight: normal; color: rgba(115, 115, 115, 1);">
+                            Featured Products</p>
+                        <h3 class="title">BESTSELLER PRODUCTS</h3>
+                        <p
+                            style="font-weight: lighter;margin-bottom: 10px;margin-bottom: 100px;font-weight: normal; color: rgba(115, 115, 115, 1);">
+                            Problems trying to
+                            resolve the conflict between </p>
+                    </div>
+                    <tr>
+                        <td class="productnew">
+                            <img src="product-cover-1.png" alt="Product 2">
+                            <div class="details">
+                                <p>Graphic Design</p>
+                                <p style="color: rgba(189, 189, 189, 1) ">English Department</p>
+                                <p> <span style="color: rgba(189, 189, 189, 1) ">$16.48</span> $6.48</p>
+                            </div>
+                            <div class="dot-container">
+                                <div class="dot1"></div>
+                                <div class="dot2"></div>
+                                <div class="dot3"></div>
+                                <div class="dot4"></div>
+                            </div>
+                        </td>
+
+                        <td class="productnew">
+                            <img src="product-cover-2.png" alt="Product 2">
+                            <div class="details">
+                                <p>Graphic Design</p>
+                                <p style="color: rgba(189, 189, 189, 1) ">English Department</p>
+                                <p> <span style="color: rgba(189, 189, 189, 1) ">$16.48</span> $6.48</p>
+                            </div>
+                            <div class="dot-container">
+                                <div class="dot1"></div>
+                                <div class="dot2"></div>
+                                <div class="dot3"></div>
+                                <div class="dot4"></div>
+                            </div>
+                        </td>
+                        <td class="productnew">
+                            <img src="product-cover-3.png" alt="Product 2">
+                            <div class="details">
+                                <p>Graphic Design</p>
+                                <p style="color: rgba(189, 189, 189, 1) ">English Department</p>
+                                <p> <span style="color: rgba(189, 189, 189, 1) ">$16.48</span> $6.48</p>
+                            </div>
+                            <div class="dot-container">
+                                <div class="dot1"></div>
+                                <div class="dot2"></div>
+                                <div class="dot3"></div>
+                                <div class="dot4"></div>
+                            </div>
+                        </td>
+                        <td class="productnew">
+                            <img src="product-cover-4.png" alt="Product 2">
+                            <div class="details">
+                                <p>Graphic Design</p>
+                                <p style="color: rgba(189, 189, 189, 1) ">English Department</p>
+                                <p> <span style="color: rgba(189, 189, 189, 1) ">$16.48</span> $6.48</p>
+                            </div>
+                            <div class="dot-container">
+                                <div class="dot1"></div>
+                                <div class="dot2"></div>
+                                <div class="dot3"></div>
+                                <div class="dot4"></div>
+                            </div>
+                        </td>
+                        <!-- Repeat similar structure for other cells -->
+                    </tr>
+                    <tr>
+                        <td class="productnew">
+                            <img src="product-cover-5.png" alt="Product 2">
+                            <div class="details">
+                                <p>Graphic Design</p>
+                                <p style="color: rgba(189, 189, 189, 1) ">English Department</p>
+                                <p> <span style="color: rgba(189, 189, 189, 1) ">$16.48</span> $6.48</p>
+                            </div>
+                            <div class="dot-container">
+                                <div class="dot1"></div>
+                                <div class="dot2"></div>
+                                <div class="dot3"></div>
+                                <div class="dot4"></div>
+                            </div>
+                        </td>
+
+                        <td class="productnew">
+                            <img src="product-cover-6.png" alt="Product 2">
+                            <div class="details">
+                                <p>Graphic Design</p>
+                                <p style="color: rgba(189, 189, 189, 1);">English Department</p>
+                                <p> <span style="color: rgba(189, 189, 189, 1) ;">$16.48</span> $6.48</p>
+                            </div>
+                            <div class="dot-container">
+                                <div class="dot1"></div>
+                                <div class="dot2"></div>
+                                <div class="dot3"></div>
+                                <div class="dot4"></div>
+                            </div>
+                        </td>
+                        <td class="productnew">
+                            <img src="product-cover-7.png" alt="Product 2">
+                            <div class="details">
+                                <p>Graphic Design</p>
+                                <p style="color: rgba(189, 189, 189, 1) ">English Department</p>
+                                <p> <span style="color: rgba(189, 189, 189, 1) ">$16.48</span> $6.48</p>
+                            </div>
+                            <div class="dot-container">
+                                <div class="dot1"></div>
+                                <div class="dot2"></div>
+                                <div class="dot3"></div>
+                                <div class="dot4"></div>
+                            </div>
+                        </td>
+                        <td class="productnew">
+                            <img src="product-cover-8.png" alt="Product 2">
+                            <div class="details">
+                                <p>Graphic Design</p>
+                                <p style="color: rgba(189, 189, 189, 1) ">English Department</p>
+                                <p> <span style="color: rgba(189, 189, 189, 1) ">$16.48</span> $6.48</p>
+                            </div>
+                            <div class="dot-container">
+                                <div class="dot1"></div>
+                                <div class="dot2"></div>
+                                <div class="dot3"></div>
+                                <div class="dot4"></div>
+                            </div>
+                        </td>
+
+                        <!-- Repeat similar structure for other cells -->
+                    </tr>
+
+                    <!-- Add more rows if needed -->
+                </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+    <section>
+        <div>
+
+            <div class="div"
+                style="background-image: url(shop-hero-2-product-slide-2.jpg);height: 600px;color: white; margin-top: 40px;">
+                <div style="padding: 10%;margin-left: 0;width: 599px;
+                height:331px;
+                gap: 35px;
+                ">
+
+                    <div class="seecentcvr">
+
+                        <div class="imgsecntcvr">
+
+                            <h3 style="font-size: 15px;margin: 30px;margin-left: 0;">SUMMER 2020</h3>
+                            <h1 style="margin: 30px;margin-left: 0;">Vita Classic Product</h1>
+                            <h3 style="font-size: 15px;margin: 30px;margin-left: 0;font-weight: lighter;">We know how
+                                large objects will act, We know how are objects will act, We know.</h3>
+
+
+                            <a href=""
+                                style="font-size: 24px; font-weight: bold;color: white;padding-right: 30px;">$16.48</a>
+                            <button style="background-color:  rgba(45, 192, 113, 1);
+                    ;color: white;padding: 15px 40px 15px 40px;border-radius: 5px;border: none;">ADD TO CART</button>
+                        </div>
+
+                    </div>
+                    <div>
+
+                        <img src="shop-hero-2-png-picture-1.png" alt="" class="shop-hero-2-png-picture-1">
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+        </div>
+        <div class="asian-woman-img">
+
+            <img src="asian-woman.png" alt="" class="asian-woman">
+        </div>
+
+
+        <div class="div" style="height: 386px;color: white; margin-top: 40px;">
+
+
+            <div class="seecentcvr2">
+
+
+
+
+                <div class="imgsecntcvr2" style="color: black;">
+
+                    <h3 style="font-size: 15px;margin: 30px;margin-left: 0;">SUMMER 2020</h3>
+                    <h1 style="margin: 30px;margin-left: 0;">Vita Classic Product</h1>
+                    <h3 style="font-size: 15px;margin: 30px;margin-left: 0;font-weight: lighter;">We know how large
+                        objects will act, We know how are objects will act, We know.</h3>
+
+
+
+                    <button class="buynow1">BUY NOW</button>
+                    <button class="readmore1" style="color:  rgba(45, 192, 113, 1)04;">READ MORE</button>
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+        <!-- Footer -->
+
+    </section>
+    <div class="category" style="text-align: center; margin-top: 12px;">
+        <p
+            style="font-weight: lighter;margin-bottom: 10px; color: rgba(35, 166, 240, 1); font-size: small;font-weight: bold;">
+            Practice Advice</p>
+        <h3 class="title">Featured Posts</h3>
+        <p style="font-weight: lighter;
+                        margin-top: 11px;
+                        margin-bottom: -95px;
+                        color: rgba(115, 115, 115, 1);
+                        font-size: small;
+                        font-weight: bold;
+                        margin-left: 30%;
+                        margin-right: 30%;">Problems trying to resolve the conflict between
+            the two major realms of Classical physics: Newtonian mechanics </p>
+    </div>
+    <table class="table1">
+
+        <tr class="tr2">
+            <td class="unsplash23">
+                <img src="unsplash1.png" alt="Product 1">
+                <div class="details">
+                    <a href="" style="color: rgba(142, 194, 242, 1);font-size: small;">Google</a>
+                    <a href="" style="color:  rgba(115, 115, 115, 1);font-size: small;">Trending</a>
+                    <a href="" style="color: rgba(115, 115, 115, 1);font-size: small;">New</a>
+                    <h1 style="color: rgba(37, 43, 66, 1);font-size: medium;font-weight: normal;">Loudest à la Madison
+                        #1
+                        (L'integral)</h1>
+                    <div>
+
+                        <p style="color:rgba(115, 115, 115, 1);font-size: small;font-weight: normal;">We focus on
+                            ergonomics and meeting
+                            you where you work. It's only a
+                            keystroke away.</p>
+                        <i class="fa fa-clock" aria-hidden="true"
+                            style="color:  rgba(35, 166, 240, 1); font-size: 15px;"></i>
+                        <a href="" style="font-weight: normal;font-size: 10px;">22 April 2021</a>
+                        <i class="fa fa-area-chart" aria-hidden="true" style="color: rgba(35, 133, 109, 1);
+                    "></i>
+                        <a href="" style="font-weight: normal;font-size: 10px;">10 comments</a>
+                    </div>
+                    <p href="" style="color: rgba(115, 115, 115, 1); font-size: small;">Learn More</p>
+                </div>
+
+            </td>
+
+            <td class="unsplash23">
+                <img src="unsplash2.png" alt="Product 1">
+                <div class="details">
+                    <a href="" style="color: rgba(142, 194, 242, 1);font-size: small;">Google</a>
+                    <a href="" style="color:  rgba(115, 115, 115, 1);font-size: small;">Trending</a>
+                    <a href="" style="color: rgba(115, 115, 115, 1);font-size: small;">New</a>
+                    <h1 style="color: rgba(37, 43, 66, 1);font-size: medium;font-weight: normal;">Loudest à la Madison
+                        #1
+                        (L'integral)</h1>
+                    <div>
+
+                        <p style="color:rgba(115, 115, 115, 1);font-size: small;font-weight: normal;">We focus on
+                            ergonomics and meeting
+                            you where you work. It's only a
+                            keystroke away.</p>
+                        <i class="fa fa-clock" aria-hidden="true"
+                            style="color:  rgba(35, 166, 240, 1); font-size: 15px;"></i>
+                        <a href="" style="font-weight: normal;font-size: 10px;">22 April 2021</a>
+                        <i class="fa fa-area-chart" aria-hidden="true" style="color: rgba(35, 133, 109, 1);
+                    "></i>
+                        <a href="" style="font-weight: normal;font-size: 10px;">10 comments</a>
+                    </div>
+                    <p href="" style="color: rgba(115, 115, 115, 1); font-size: small;">Learn More</p>
+                </div>
+
+            </td>
+            <td class="unsplash23">
+                <img src="unsplash3.png" alt="Product 1">
+                <div class="details">
+                    <a href="" style="color: rgba(142, 194, 242, 1);font-size: small;">Google</a>
+                    <a href="" style="color:  rgba(115, 115, 115, 1);font-size: small;">Trending</a>
+                    <a href="" style="color: rgba(115, 115, 115, 1);font-size: small;">New</a>
+                    <h1 style="color: rgba(37, 43, 66, 1);font-size: medium;font-weight: normal;">Loudest à la Madison
+                        #1
+                        (L'integral)</h1>
+                    <div>
+
+                        <p style="color:rgba(115, 115, 115, 1);font-size: small;font-weight: normal;">We focus on
+                            ergonomics and meeting
+                            you where you work. It's only a
+                            keystroke away.</p>
+                        <i class="fa fa-clock" aria-hidden="true"
+                            style="color:  rgba(35, 166, 240, 1); font-size: 15px;"></i>
+                        <a href="" style="font-weight: normal;font-size: 10px;">22 April 2021</a>
+                        <i class="fa fa-area-chart" aria-hidden="true" style="color: rgba(35, 133, 109, 1);
+                    "></i>
+                        <a href="" style="font-weight: normal;font-size: 10px;">10 comments</a>
+                    </div>
+                    <p href="" style="color: rgba(115, 115, 115, 1); font-size: small;">Learn More</p>
+                </div>
+
+            </td>
+
+
+        </tr>
+
+        <!-- Add more rows if needed -->
+    </table>
+
+    <div class="containernew" style="background-color:rgba(250, 250, 250, 1);
+    margin: 0px ;margin-right: 100%;width: 100%;">
+        <a href="#" class="nav_logo" style="color: rgb(11, 11, 11);margin-left: 135px;">Bandage</a>
+
+        <div class="social" style="margin-right: 135px;">
+
+
+
+
+
+            <i class="fa-brands fa-facebook" aria-hidden="true"
+                style="color:  rgba(35, 166, 240, 1); margin: 10px;"></i>
+            <i class="fa-brands fa-instagram" aria-hidden="true" style="color:rgba(35, 166, 240, 1);margin: 10px; "></i>
+            <i class="fa-brands fa-twitter" aria-hidden="true" style="color:rgba(35, 166, 240, 1);margin: 10px;"></i>
+
+
+            </a>
+        </div>
+
+    </div>
+
+
+
+    <footer class="footer">
+        <div class="container footer_container">
+            <div class="footer_items">
+                <h3 class="footer_title">Company Info</h3>
+                <ul class="footer_list">
+                    <li class="li footer_itm">About Us</li>
+
+                    <li class="li footer_itm">Carrier</li>
+                    <li class="li footer_itm">We are hiring</li>
+                    <li class="li footer_itm">Blog</li>
+                </ul>
+            </div>
+            <div class="footer_items">
+                <h3 class="footer_title">Legal</h3>
+                <ul class="footer_list">
+                    <li class="li footer_itm">About Us</li>
+
+                    <li class="li footer_itm">Carrier</li>
+                    <li class="li footer_itm">We are hiring</li>
+                    <li class="li footer_itm">Blog</li>
+                </ul>
+            </div>
+            <div class="footer_items">
+                <h3 class="footer_title">Features</h3>
+                <ul class="footer_list">
+                    <li class="li footer_itm">Business Marketing</li>
+                    <li class="li footer_itm">User Analytic</li>
+                    <li class="li footer_itm">Live Chat</li>
+                    <li class="li footer_itm">Unlimited Support</li>
+                </ul>
+            </div>
+            <div class="footer_items">
+                <h3 class="footer_title">Resources</h3>
+                <ul class="footer_list">
+                    <li class="li footer_itm">IOS & Android</li>
+                    <li class="li footer_itm">Watch a Demo</li>
+                    <li class="li footer_itm">Customers</li>
+                    <li class="li footer_itm">API</li>
+                </ul>
+            </div>
+            <div class="footer_items">
+                <h3 class="footer_title">Get In Touch</h3>
+                <ul class="footer_list">
+                    <div class="textfield">
+
+                        <input type="text" class="form-control" aria-label="with dot and two decimal places"
+                        placeholder="Your Email"  > 
+                        <a class="input-group-text" style="background-color: rgba(35, 166, 240, 1);color: white;padding: 11px;"> Subscribe</a>
+                    </div>
+
+                    <li class="li footer_itm">Lore imp sum dolor Amit</li>
+
+                </ul>
+            </div>
+
+        </div>
+        <div class="bottom">
+            <div class="container bottom_container">
+
+            </div>
+        </div>
+    </footer>
+
+    <div class="containernew" style="background-color: rgba(250, 250, 250, 1);
+    margin: 0px ;margin-right: 100%;width: 100%;">
+
+        <p class="copyright" style="color: rgba(115, 115, 115, 1);text-align: center
+        ; margin-left: 70px;">
+            Made With Love By Finland All Right Reserved
+        </p>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--Linking JS file-->
+    <script src="./main.js"></script>
+</body>
+
+</html>
